@@ -1,6 +1,6 @@
 //
-//  app_1App.swift
-//  app 1
+//  prayer_timeApp.swift
+//  prayer time
 //
 //  Created by Jamal Al-kandari on 30/07/2022.
 //
@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct app_1App: App {
+struct prayer_timeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            pray_time_app()
         }
     }
 }

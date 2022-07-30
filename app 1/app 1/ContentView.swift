@@ -12,7 +12,7 @@ struct ContentView: View {
         ZStack{
             Color.black
                 .ignoresSafeArea()
-                .opacity(Double.init(0.89))
+                .opacity(Double.init(0.85))
             
             VStack{
                 
@@ -51,6 +51,7 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+            .previewDevice("iPhone 12 Pro")
 
     }
 }

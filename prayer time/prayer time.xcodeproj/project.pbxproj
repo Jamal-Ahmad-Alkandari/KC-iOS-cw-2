@@ -7,24 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		21697AC028959D7E00E9F81F /* app_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21697ABF28959D7E00E9F81F /* app_1App.swift */; };
-		21CFDF2828952D120088AD98 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFDF2728952D120088AD98 /* ContentView.swift */; };
-		21CFDF2A28952D150088AD98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CFDF2928952D150088AD98 /* Assets.xcassets */; };
-		21CFDF2D28952D150088AD98 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21CFDF2C28952D150088AD98 /* Preview Assets.xcassets */; };
-		21CFDF38289544A10088AD98 /* pray time app.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21CFDF37289544A10088AD98 /* pray time app.swift */; };
+		21697AB228959D4C00E9F81F /* prayer_timeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21697AB128959D4C00E9F81F /* prayer_timeApp.swift */; };
+		21697AB428959D4C00E9F81F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21697AB328959D4C00E9F81F /* ContentView.swift */; };
+		21697AB628959D4D00E9F81F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21697AB528959D4D00E9F81F /* Assets.xcassets */; };
+		21697AB928959D4D00E9F81F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21697AB828959D4D00E9F81F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21697ABF28959D7E00E9F81F /* app_1App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = app_1App.swift; path = "../../../../../../../Library/Mobile Documents/com~apple~CloudDocs/.Trash/app_1App.swift"; sourceTree = "<group>"; };
-		21CFDF2228952D120088AD98 /* app 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "app 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		21CFDF2728952D120088AD98 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		21CFDF2928952D150088AD98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		21CFDF2C28952D150088AD98 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		21CFDF37289544A10088AD98 /* pray time app.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "pray time app.swift"; sourceTree = "<group>"; };
+		21697AAE28959D4C00E9F81F /* prayer time.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "prayer time.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21697AB128959D4C00E9F81F /* prayer_timeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = prayer_timeApp.swift; sourceTree = "<group>"; };
+		21697AB328959D4C00E9F81F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		21697AB528959D4D00E9F81F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21697AB828959D4D00E9F81F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		21CFDF1F28952D120088AD98 /* Frameworks */ = {
+		21697AAB28959D4C00E9F81F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,38 +32,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21CFDF1928952D120088AD98 = {
+		21697AA528959D4C00E9F81F = {
 			isa = PBXGroup;
 			children = (
-				21CFDF2428952D120088AD98 /* app 1 */,
-				21CFDF2328952D120088AD98 /* Products */,
+				21697AB028959D4C00E9F81F /* prayer time */,
+				21697AAF28959D4C00E9F81F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		21CFDF2328952D120088AD98 /* Products */ = {
+		21697AAF28959D4C00E9F81F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21CFDF2228952D120088AD98 /* app 1.app */,
+				21697AAE28959D4C00E9F81F /* prayer time.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		21CFDF2428952D120088AD98 /* app 1 */ = {
+		21697AB028959D4C00E9F81F /* prayer time */ = {
 			isa = PBXGroup;
 			children = (
-				21CFDF37289544A10088AD98 /* pray time app.swift */,
-				21697ABF28959D7E00E9F81F /* app_1App.swift */,
-				21CFDF2728952D120088AD98 /* ContentView.swift */,
-				21CFDF2928952D150088AD98 /* Assets.xcassets */,
-				21CFDF2B28952D150088AD98 /* Preview Content */,
+				21697AB128959D4C00E9F81F /* prayer_timeApp.swift */,
+				21697AB328959D4C00E9F81F /* ContentView.swift */,
+				21697AB528959D4D00E9F81F /* Assets.xcassets */,
+				21697AB728959D4D00E9F81F /* Preview Content */,
 			);
-			path = "app 1";
+			path = "prayer time";
 			sourceTree = "<group>";
 		};
-		21CFDF2B28952D150088AD98 /* Preview Content */ = {
+		21697AB728959D4D00E9F81F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				21CFDF2C28952D150088AD98 /* Preview Assets.xcassets */,
+				21697AB828959D4D00E9F81F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -73,39 +70,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21CFDF2128952D120088AD98 /* app 1 */ = {
+		21697AAD28959D4C00E9F81F /* prayer time */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21CFDF3028952D150088AD98 /* Build configuration list for PBXNativeTarget "app 1" */;
+			buildConfigurationList = 21697ABC28959D4D00E9F81F /* Build configuration list for PBXNativeTarget "prayer time" */;
 			buildPhases = (
-				21CFDF1E28952D120088AD98 /* Sources */,
-				21CFDF1F28952D120088AD98 /* Frameworks */,
-				21CFDF2028952D120088AD98 /* Resources */,
+				21697AAA28959D4C00E9F81F /* Sources */,
+				21697AAB28959D4C00E9F81F /* Frameworks */,
+				21697AAC28959D4C00E9F81F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "app 1";
-			productName = "app 1";
-			productReference = 21CFDF2228952D120088AD98 /* app 1.app */;
+			name = "prayer time";
+			productName = "prayer time";
+			productReference = 21697AAE28959D4C00E9F81F /* prayer time.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		21CFDF1A28952D120088AD98 /* Project object */ = {
+		21697AA628959D4C00E9F81F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1340;
 				TargetAttributes = {
-					21CFDF2128952D120088AD98 = {
+					21697AAD28959D4C00E9F81F = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 21CFDF1D28952D120088AD98 /* Build configuration list for PBXProject "app 1" */;
+			buildConfigurationList = 21697AA928959D4C00E9F81F /* Build configuration list for PBXProject "prayer time" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -113,43 +110,42 @@
 				en,
 				Base,
 			);
-			mainGroup = 21CFDF1928952D120088AD98;
-			productRefGroup = 21CFDF2328952D120088AD98 /* Products */;
+			mainGroup = 21697AA528959D4C00E9F81F;
+			productRefGroup = 21697AAF28959D4C00E9F81F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21CFDF2128952D120088AD98 /* app 1 */,
+				21697AAD28959D4C00E9F81F /* prayer time */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21CFDF2028952D120088AD98 /* Resources */ = {
+		21697AAC28959D4C00E9F81F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21CFDF2D28952D150088AD98 /* Preview Assets.xcassets in Resources */,
-				21CFDF2A28952D150088AD98 /* Assets.xcassets in Resources */,
+				21697AB928959D4D00E9F81F /* Preview Assets.xcassets in Resources */,
+				21697AB628959D4D00E9F81F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21CFDF1E28952D120088AD98 /* Sources */ = {
+		21697AAA28959D4C00E9F81F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21CFDF2828952D120088AD98 /* ContentView.swift in Sources */,
-				21697AC028959D7E00E9F81F /* app_1App.swift in Sources */,
-				21CFDF38289544A10088AD98 /* pray time app.swift in Sources */,
+				21697AB428959D4C00E9F81F /* ContentView.swift in Sources */,
+				21697AB228959D4C00E9F81F /* prayer_timeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		21CFDF2E28952D150088AD98 /* Debug */ = {
+		21697ABA28959D4D00E9F81F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -209,7 +205,7 @@
 			};
 			name = Debug;
 		};
-		21CFDF2F28952D150088AD98 /* Release */ = {
+		21697ABB28959D4D00E9F81F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -263,14 +259,14 @@
 			};
 			name = Release;
 		};
-		21CFDF3128952D150088AD98 /* Debug */ = {
+		21697ABD28959D4D00E9F81F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"app 1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"prayer time/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -283,7 +279,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jamal.app-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamal.prayer-time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -291,14 +287,14 @@
 			};
 			name = Debug;
 		};
-		21CFDF3228952D150088AD98 /* Release */ = {
+		21697ABE28959D4D00E9F81F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"app 1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"prayer time/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,7 +307,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jamal.app-1";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamal.prayer-time";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -322,25 +318,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21CFDF1D28952D120088AD98 /* Build configuration list for PBXProject "app 1" */ = {
+		21697AA928959D4C00E9F81F /* Build configuration list for PBXProject "prayer time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21CFDF2E28952D150088AD98 /* Debug */,
-				21CFDF2F28952D150088AD98 /* Release */,
+				21697ABA28959D4D00E9F81F /* Debug */,
+				21697ABB28959D4D00E9F81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21CFDF3028952D150088AD98 /* Build configuration list for PBXNativeTarget "app 1" */ = {
+		21697ABC28959D4D00E9F81F /* Build configuration list for PBXNativeTarget "prayer time" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				21CFDF3128952D150088AD98 /* Debug */,
-				21CFDF3228952D150088AD98 /* Release */,
+				21697ABD28959D4D00E9F81F /* Debug */,
+				21697ABE28959D4D00E9F81F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 21CFDF1A28952D120088AD98 /* Project object */;
+	rootObject = 21697AA628959D4C00E9F81F /* Project object */;
 }
